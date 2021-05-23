@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header_list">
+                    <li class="header_item"><a class="header_link" href="">Home</a></li>
+                    <li class="header_item"><a class="header_link" href="">About</a></li>
+                </ul>
+                <div class="header_decorate">
+                    <img src="images/KKhoji.svg" alt="">
+                </div>
+                <ul class="header_list">
+                    <li class="header_item"><a class="header_link" href="">Work</a></li>
+                    <li class="header_item"><a class="header_link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="burger">
+                <svg height="384pt" viewBox="0 -53 384 384" width="384pt" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                    <path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                    <path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero_title">
+                    <span>Hello World,</span>
+                    my names Khusan!
+                </h1>
+                <h2 class="hero_title2">
+                    And i I'm beginner Web-Devoloper.
+                </h2>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.querySelector('.burger').addEventListener('click', (e) => {
+            document.querySelector('.header__nav').classList.add('header__nav--open');
+        });
+        
+    </script>
+</body>
+</html>
